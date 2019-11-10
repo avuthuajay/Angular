@@ -6,6 +6,9 @@ import { Component} from '@angular/core';
 })
 export class ProductListComponent {
     pageTitle = 'Product List';
+    imageWidth = 50;
+    imageMargin = 2;
+
     products: any[] = [
         {
             productId: 1,
@@ -15,7 +18,7 @@ export class ProductListComponent {
             description: '15 kg holding capacity',
             price: 1299.99,
             starRating: 4.2,
-            imageUrl: ''
+            imageUrl: 'assets/images/garden_cart.png'
         },
         {
             productId: 2,
@@ -25,7 +28,7 @@ export class ProductListComponent {
             description: 'Childer bed time stories',
             price: 129.99,
             starRating: 4.5,
-            imageUrl: ''
+            imageUrl: 'assets/images/hammer.png'
         }
     ];
 }
