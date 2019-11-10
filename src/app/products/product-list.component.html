@@ -30,7 +30,16 @@
                         <th>5 Start Rating</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody>
+                    <tr *ngFor="let product of products">
+                        <td></td>
+                        <td>{{product.productName}}</td>
+                        <td>{{product.productCode}}</td>
+                        <td>{{product.releaseDate}}</td>
+                        <td>{{product.price}}</td>
+                        <td>{{product.starRating}}</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
