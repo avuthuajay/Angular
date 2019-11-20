@@ -6,7 +6,7 @@ import { IProduct } from './product';
     templateUrl: './product-list.component.html',
     styleUrls: ['/product-list.component.css']
 })
-export class ProductListComponent implements OnInit{
+export class ProductListComponent implements OnInit {
     pageTitle = 'Product List';
     imageWidth = 50;
     imageMargin = 2;
