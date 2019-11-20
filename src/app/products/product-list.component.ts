@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { IProduct } from './product';
 
 @Component({
     selector: 'ajay-products',
@@ -11,7 +12,7 @@ export class ProductListComponent {
     showImage = false;
     listFilter = 'Cart';
 
-    products: any[] = [
+    products: IProduct[] = [
         {
             productId: 1,
             productName: 'Bag',
