@@ -43,7 +43,8 @@
                         <td>{{product.productCode | lowercase | convertToSpaces : '-'}}</td>
                         <td>{{product.releaseDate}}</td>
                         <td>{{product.price | currency:'INR':'symbol':'1.2-2'}}</td>
-                        <td><ajay-star [rating]='product.starRating'></ajay-star></td>
+                        <td><ajay-star [rating]='product.starRating' 
+                            (ratingClicked)='onRatingClicked($event)'></ajay-star></td>
                     </tr>
                 </tbody>
             </table>
