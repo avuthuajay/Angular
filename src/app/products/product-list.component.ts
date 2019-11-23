@@ -3,7 +3,6 @@ import { IProduct } from './product';
 import { ProductService } from './products.service';
 
 @Component({
-    selector: 'ajay-products',
     templateUrl: './product-list.component.html',
     styleUrls: ['/product-list.component.css']
 })
